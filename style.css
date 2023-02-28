@@ -1,38 +1,110 @@
-body{
+body {
     margin: 0;
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(246, 248, 249);
 }
 
 header {
     background-color: rgb(255, 255, 255);
+    
 }
 
-.toboo { position: absolute;
-        margin-top: 1%;
-    }
-
-.task {
-    background-color: rgb(0, 255, 242);
-    border-radius: 5px;
-}
-
-.section {
-    opacity: 0.5;
-    border-radius: 5px;
+.taboo {
+    font-size: 50px;
+    padding-inline: 
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Light', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .buttons {
-    margin-bottom: 3%;
+    padding-left: 40px;
 }
+
+main {padding: 25px 25px 25px 25px;
+    }
 
 .container {
     background-color: rgb(255, 255, 255);
     margin: auto;
+    }
+
+
+.task {
+    background-color: rgb(28%, 68%, 95%);
+    border-radius: 5px;
 }
 
-main {
-    margin:2%;2%;2%,2%;
-}
 
 li {list-style: none;}
 ul {list-style-type:none;}
+
+
+.true {
+    border-radius: 50%;
+	height: 15px;
+	width: 15px;
+	border: 2px solid rgb(0, 255, 34);
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 3px;
+}
+
+.false {
+    border-radius: 50%;
+	  height: 15px;
+	  width: 15px;
+	  border: 2px solid rgb(255, 8, 0);
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 3px;
+}
+
+.edit {
+    background-color:rgb(28%, 68%, 95%) ;
+    border-radius: 25%;
+    padding: 5px;
+    font-size: small;
+    }
+
+.q1 {
+    background-color: rgb(156, 114, 228);
+    border-radius: 25%;
+    padding: 5px;
+    font-size: small;
+    
+}
+
+.rec {
+    background-color: rgb(99, 191, 168);
+    border-radius: 25%;
+    padding: 5px;
+    font-size: small;
+    
+}
+
+.mobile {
+    background-color: rgb(242, 158, 51);
+    border-radius: 25%;
+    padding: 5px;
+    font-size: small;
+}
+
+.web {
+    background-color: rgb(216, 99, 161);
+    border-radius: 25%;
+    padding: 5px;
+    font-size: small;
+}
+
+.sale{
+    background-color: rgb(176, 201, 38);
+    border-radius: 25%;
+    padding: 5px;
+    font-size: small;
+}
+
+
+
+
