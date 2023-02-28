@@ -13,7 +13,17 @@ header {
     padding-inline: 
     font-family: 'Open Sans', sans-serif;
     font-family: 'Open Sans Light', sans-serif;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;}
+
+
+.task {
+    background-color: rgb(0, 255, 242);
+    border-radius: 5px;
+}
+
+.section {
+    opacity: 0.5;
+    border-radius: 5px;
 }
 
 .buttons {
@@ -34,6 +44,55 @@ main {padding: 25px 25px 25px 25px;
     border-radius: 5px;
 }
 
+
+.edit {
+    background-color: #bbb;
+    border-radius: 20%;
+    }
+
+.q1 {
+    background-color: #bbb;
+    border-radius: 20%;
+}
+
+.rec {
+    background-color: #bbb;
+    border-radius: 20%;
+}
+
+.mobile {
+    background-color: #bbb;
+    border-radius: 20%;
+}
+
+.web {
+    background-color: #bbb;
+    border-radius: 20%;
+}
+
+.sale{
+    background-color: #bbb;
+    border-radius: 20%;
+}
+
+
+.true {
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.false {
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
 
 li {list-style: none;}
 ul {list-style-type:none;}
