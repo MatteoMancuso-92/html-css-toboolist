@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    background-color: rgb(219, 219, 219);
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+}
+
+.toboo { position: absolute;
+        display: inline-block;
+    }
+
+.container {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+main {
+    margin:2%;2%;2%,2%;
+}
+
+li {list-style: none;}
+ul {list-style-type:none;}
