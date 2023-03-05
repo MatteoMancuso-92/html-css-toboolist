@@ -1,169 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
 body {
-    margin: 0;
-    background-color: rgb(246, 248, 249);
+	background-color: #aaaaaa;
 }
 
 header {
-    background-color: rgb(255, 255, 255);
-    
+	margin-bottom: 5rem;
+	background-color: white;
+	padding: .5rem 1rem;
 }
 
-.taboo {
-    font-size: 50px;
-    padding-inline: 
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Open Sans Light', sans-serif;
-    font-family: 'Open Sans Condensed', sans-serif;}
-
-
-.task {
-    background-color: rgb(0, 255, 242);
-    border-radius: 5px;
+.logo {
+	vertical-align: middle;
 }
 
-.section {
-    opacity: 0.5;
-    border-radius: 5px;
+h1 {
+	display: inline;
+	vertical-align: middle;
 }
 
-.buttons {
-    padding-left: 40px;
+main {
+	margin: 4rem auto;
+	max-width: 550px;
+	background-color: white;
+	border-radius: 10px;
 }
 
-main {padding: 25px 25px 25px 25px;
-    }
-
-.container {
-    background-color: rgb(255, 255, 255);
-    margin: auto;
-    }
-
-
-.task {
-    background-color: rgb(28%, 68%, 95%);
-    border-radius: 5px;
+.btns {
+	padding: 1.5rem 3rem .5rem;
+	border-bottom: 2px solid #aaaaaa;
 }
 
-
-.edit {
-    background-color: #bbb;
-    border-radius: 20%;
-    }
-
-.q1 {
-    background-color: #bbb;
-    border-radius: 20%;
+.btns-blue {
+    border-bottom: rgb(27%, 67%, 92%);
+    background-color: rgb(27%, 67%, 92%);
 }
 
-.rec {
-    background-color: #bbb;
-    border-radius: 20%;
+.opacity {
+	opacity: .5;
 }
 
-.mobile {
-    background-color: #bbb;
-    border-radius: 20%;
+ul {
+	list-style: none;
 }
 
-.web {
-    background-color: #bbb;
-    border-radius: 20%;
+.list-sections {
+	padding: 1.5rem 3rem 1rem;
 }
 
-.sale{
-    background-color: #bbb;
-    border-radius: 20%;
+.arrow-down {
+	vertical-align: -2px;
+	font-size: .8em;
 }
 
-
-.true {
-    height: 20px;
-    width: 20px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
+.icon-status {
+	margin-right: 1rem;
+	display: inline-block;
+	width: 1.7em;
+	height: 1.7em;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 50%;
+	text-align: center;
+	font-weight: bold;
+	font-size: .6em;
 }
 
-.false {
-    height: 20px;
-    width: 20px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
+.status-tick {
+    color: green;
+	border-color: green;
 }
 
-li {list-style: none;}
-ul {list-style-type:none;}
-
-
-.true {
-    border-radius: 50%;
-	height: 15px;
-	width: 15px;
-	border: 2px solid rgb(0, 255, 34);
-    display: inline-block;
-    text-align: center;
-    font-size: 15px;
-    padding-top: 3px;
+.status-x {
+	color: red;
+	border-color: red;
 }
 
-.false {
-    border-radius: 50%;
-	  height: 15px;
-	  width: 15px;
-	  border: 2px solid rgb(255, 8, 0);
-    display: inline-block;
-    text-align: center;
-    font-size: 15px;
-    padding-top: 3px;
+.tag {
+	display: inline-block;
+	padding: .3em .5em;
+	border-radius: 1em;
+	color: white;
+}
+.tag-blue {
+	background-color: rgb(27%, 67%, 92%)
 }
 
-.edit {
-    background-color:rgb(28%, 68%, 95%) ;
-    border-radius: 25%;
-    padding: 5px;
-    font-size: small;
-    }
-
-.q1 {
-    background-color: rgb(156, 114, 228);
-    border-radius: 25%;
-    padding: 5px;
-    font-size: small;
-    
+.tag-purple {
+	background-color: #9C72E4
 }
 
-.rec {
-    background-color: rgb(99, 191, 168);
-    border-radius: 25%;
-    padding: 5px;
-    font-size: small;
-    
+.tag-green {
+    background-color: rgb(100, 192, 169);
 }
 
-.mobile {
-    background-color: rgb(242, 158, 51);
-    border-radius: 25%;
-    padding: 5px;
-    font-size: small;
+.tag-orange {
+    background-color: #F29E33;
 }
 
-.web {
-    background-color: rgb(216, 99, 161);
-    border-radius: 25%;
-    padding: 5px;
-    font-size: small;
+.tag-pink  {
+    background-color: #D863A1;
 }
 
-.sale{
-    background-color: rgb(176, 201, 38);
-    border-radius: 25%;
-    padding: 5px;
-    font-size: small;
+.tag-soup {
+    background-color: #AFC825;
 }
-
-
-
-

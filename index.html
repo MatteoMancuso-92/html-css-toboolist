@@ -1,50 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toboolist</title>
-    <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Toboolist</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<header>
+		<img class="logo" src="img-toboolist/img/Logo.png" alt="Logo Toboolist">
+		<h1>Toboolist</h1>
+	</header>
 
-    <header>
-      
-        <div class="head">
-            <div class="image"><img src="img-toboolist/img/Logo.png" alt=""><span class="taboo">The Taboolist</span></div>
-        </div>
-    </header>
-    
-    <main>
-        
-        <div class="container">
+	<main>
+		<div class="btns">
+			<button class="btns-blue">Add Task</button>
+			<button class="opacity">Add Section</button>
+		</div>
 
-            <div class="buttons">
-                <button class="task">Add task</button>
-                <button class="section">Add section</button>
-            </div>
-
-            <ul> <strong>New Task</strong>
-                <li><span class="true">&#128504;</span> Quarerly Newsletter</li>
-            </ul>
-
-            <ul> <strong>Today</strong>
-                <li><span class="true">&#128504;</span>Recruiting blog post</li>
-                <li><span class="true">&#128504;</span>Mobile app laucnch</li>
-                <li><span class="false">&times;</span>Interview John H.</li>
-                <li><span class="true">&#128504;</span> Summit update to mobile storefonts</li>
-            </ul>
-
-            <ul> <strong>Upcoming</strong>
-                <li><span>&times;</span> Schedule meeting with Alex</li>
-                <li><span>&#128504;</span> Homepage refresh</li>
-                <li><span>&#128504;</span> Onboard new Sales team members</li>
-                <li><span>&#128504;</span> Review editorial caendar</li>
-            </ul>
-        </div>
-    </main>
-
+		<ul class="list-sections">
+			<li>
+				<h2><span class="arrow-down">&#9662;</span> New Task</h2>
+				<ul>
+					<li><span class="icon-status status-tick">&check;</span>Quarterly Newsletter <span class="tag tag-blue">Editorial</span></li>
+				</ul>
+			</li>
+			<li>
+				<h2><span class="arrow-down">&#9662;</span> Today</h2>
+				<ul>
+					<li><span class="icon-status status-tick">&check;</span> Recruiting blog post <span class="tag tag-blue">Editorial</span></li>
+                    <li><span class="icon-status status-tick">&check;</span> Mobile app luaunch <span class="tag tag-purple">Q1 goals</span></li>
+                    <li><span class="icon-status status-x">&cross;</span> Interview John H. <span class="tag tag-green">Recruiting</span></li>
+                    <li><span class="icon-status status-tick">&check;</span> Summit update to mobile storefronts <span class="tag tag-orange">Mobile</span></li>
+                </ul>
+			<li>
+				<h2><span class="arrow-down">&#9662;</span> Upcoming</h2>
+				<ul>
+					<li><span class="icon-status status-x">&cross;</span> Schedule meeting with Alex</li>
+                    <li><span class="icon-status status-tick">&check;</span> Homepage refresh <span class="tag tag-pink">Website</span></li>
+                    <li><span class="icon-status status-tick">&check;;</span> Onboard new Sales team members <span class="tag tag-soup">Sales</span></li>
+                    <li><span class="icon-status status-tick">&check;</span> Review editorial calendar <span class="tag tag-blue">Editorial</span></li>
+				</ul>
+			</li>
+		</ul>
+	</main>
 </body>
 </html>
 
